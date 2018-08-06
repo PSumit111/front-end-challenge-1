@@ -1,0 +1,211 @@
+body 
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#product-link-home 
+{
+  position: absolute;
+  left: 42%;
+}
+
+#product-link-cart 
+{
+  position: absolute;
+  left: 52%;
+  margin-left: 30px;
+}
+
+#product 
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 485px;
+  width: 300px;
+  background: #fff;
+  border: 2px solid #ccc;
+  box-shadow: 0 5px 15px rgba(0,0, 0, .25);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#product-link
+{
+ height:25px;
+ width: 100%;
+}
+
+#product-title 
+{
+  position: absolute;
+  top: 62%;
+  width: 100%;
+  padding: 0px;
+
+}
+
+#product-name
+{
+  width: 80%;
+  margin: 0;
+  color: royalblue;
+}
+
+#product-price 
+{
+  float: right;
+  margin: 0;
+  padding-right:5px;
+  color: #008542;
+}
+
+#product-sex
+{
+  margin: 0;
+  color: #858382;
+}
+
+#product-size
+{
+  position: absolute;
+  top:70%;
+}
+
+label 
+{
+  font-weight: bold;
+  font-size: 14px;
+  float: left;
+}
+
+#product-size-label 
+{
+  line-height: 25px;
+
+}
+
+#product-source-label 
+{
+  padding-right: 2px;
+}
+
+#product-source 
+{
+  margin-top:10px;
+  
+}
+
+ul 
+{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+ul li 
+{
+  list-style-type: none;
+  height: 25px;
+  width: 25px;
+  margin: 0 5px;
+  border: 2px solid red;
+  text-align: center;
+  border-radius: 50%;
+  font-size:15px;
+  font-weight: bold;
+  line-height: 25px;
+
+}
+
+ul li:hover 
+{
+  background: #d8cdc8;
+  box-shadow: 0 2px 15px rgba(0,0, 0, .25);
+  cursor: pointer;
+}
+
+#product-add-cart 
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  background: rgb(236, 32, 32);
+  text-align: center;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 9px;
+}
+
+#product-add-cart:hover 
+{
+  background: #b62911;
+}
+
+#product-cart-cancel
+{
+  position: absolute;
+  top:-7px;
+  right:-7px;
+  opacity: 0.9;
+  height:1px;
+  cursor: pointer;
+}
+
+#product-cart 
+{
+  position: relative;
+  height: 80px;
+  width:90%;
+  margin:5px auto;
+  border: 2px solid #ccc;
+}
+
+h6 
+{
+  margin: 0;
+}
+
+#cart-product-image 
+{
+  float: left;
+  width:20%;
+  height: 50%;
+  overflow: hidden;
+}
+
+#cart-product-title 
+{
+  width: 80%;
+}
+
+#cart-product-brand 
+{
+  float: left;
+  width:30%;
+}
+
+#cart-product-Quantity 
+{
+  position: absolute;
+  bottom:5px;
+  width: 100%;
+}
+
+#cart-product-counter 
+{
+  float:left;
+  width: 80%;
+  text-align: center;
+}
+
+#cart-product-price 
+{
+  float:right;
+  margin: 0 2px;
+}
